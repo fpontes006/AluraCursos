@@ -26,7 +26,7 @@ export class NegociacaoController {
         const negociacao = this.criaNegociacao();
         this.negociacoes.adiciona(negociacao);
         this.negociacoesView.update(this.negociacoes);
-        this.mesnsagemView.update('Negociação adicionada com sucesso!')
+        this.mesnsagemView.update('Negociação adicionada com sucesso!');
         this.limparFormulario();
 
     }
